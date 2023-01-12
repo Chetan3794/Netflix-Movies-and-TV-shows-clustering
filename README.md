@@ -1,5 +1,6 @@
-# Netflix-Movies-and-TV-shows-clustering
+# Netflix-Movies-and-TV-Shows-Clustering
 
+#![image](https://user-images.githubusercontent.com/114068950/212034494-a5ecac8a-ed46-4566-9eac-f43b3689bbe4.png)
 
 
 **Abstract:**
