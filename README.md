@@ -13,16 +13,12 @@
 
 <h2> :floppy_disk: Project Files Description</h2>
 
-<p>This Project includes 1 colab notebook, 1 technical documentation as well as 1 presentation:</p>
+<p>This Project includes 1 colab notebook, 1 CSV file as well as 1 presentation pdf</p>
 <h4>Executable Files:</h4>
 <ul>
-  <li><b>NETFLIX MOVIES AND TV SHOWS CLUSTERING.ipynb</b> - Includes all functions required for classification operations.</li>
+  <li><b>NETFLIX MOVIES AND TV SHOWS CLUSTERING.ipynb</b> - Includes all functions required for clustering operations.</li>
 </ul>
 
-<h4>Output:</h4>
-<ul>
-  <li><b>Google Colab</b> - All the outputs are visible in the provided colab notebook.
-</ul>
 <h4>Input Files:</h4>
 <ul>
   <li><b>NETFLIX MOVIES AND TV SHOWS CLUSTERING.csv</b> - Input dataset having information about different shows/movies available on Netflix.</li>
