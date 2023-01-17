@@ -61,7 +61,7 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 # Exploring Solutions:
 After gaining a deeper understanding of what the problem we are trying to solve, what the user's needs and frustrations are, and what the goal is to achieve the best possible solution for both the company and the user, I started listing possible solutions. 
 
-1) Rating System Improvements: Use star ratings instead of a high and low rating system to aid in decision making when selecting movies.
+1)Rating System Improvements: Use star ratings instead of a high and low rating system to aid in decision making when selecting movies.
 
 2)Separate Recently Watched: Hide movies and TV shows on separate pages so users don't have to scroll through what they've already seen. — Users need to search more
 
