@@ -3,7 +3,8 @@
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
 
 <p align="center"> 
-![netflix-1658388017](https://user-images.githubusercontent.com/114068950/212823069-f83ef091-527f-4f72-af65-493e0355a690.jpeg)
+
+
 
 
 
