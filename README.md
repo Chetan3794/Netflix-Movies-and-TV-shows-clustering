@@ -86,6 +86,20 @@ Here, we wish to gain important statistical insights from our data and analyze t
 Clustering or cluster analysis is a machine learning technique that groups unlabeled data sets. This is a method of grouping data points into distinct clusters of similar data points. Potentially similar objects are grouped with little or no similarity to another group. remain in.” can be defined. This is done by finding similar patterns such as shape, size, color, and behavior in unlabeled datasets and classifying them according to the presence or absence of those similar patterns. This is an unsupervised learning method. Therefore, no oversight is provided to the algorithm and it processes unlabeled datasets. Applying this clustering technique provides a cluster ID for each cluster or group. ML systems can use this ID to simplify processing of large and complex data sets.
 # Conclusion
 
-•	With the help of silhouette score ,optimality test performed for 15 clusters. And we obtained K=2 as a optimal point with the help of elbow method and K Means is best for identification than Hierarchical as the evaluation metrics also indicates the same.
-•	DBSCAN used to show the areas of high density are separated by the areas of low density. Because of this, the clusters can be found in any arbitrary shape.
+* With the help of silhouette score ,optimality test performed for 15 clusters. And we obtained K=2 as a optimal point with the help of elbow method and K Means is best for identification than Hierarchical as the evaluation metrics also indicates the same.
+* DBSCAN used to show the areas of high density are separated by the areas of low density. Because of this, the clusters can be found in any arbitrary shape.
 
+# 📜 Credits
+
+Chetan Chavan | Aspiring Data Scientist
+
+linkedin.com/in/chetanchavan3794
+
+
+# 📚 References 
+
+1. GeekforGeeks (https://www.geeksforgeeks.org/removing-stop-words-nltk-python/?ref=lbp)
+
+2. Kaggle (https://www.kaggle.com/)
+
+3. Analytics Vidya
