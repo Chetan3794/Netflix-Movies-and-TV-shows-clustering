@@ -37,6 +37,9 @@ Netflix has been the part of many people’s everyday lives especially during th
 <h2> :book: Problem Statement</h2>
 The goal of this project is to find similarity within groups of people to build a movie recommendation system for users. We are going to analyze a dataset from the Netflix database to explore the characteristics that people share in movies. We have experienced it ourselves or have been in the room, the endless scrolling of selecting what to watch.  Users spend more time deciding what to watch than watching their movie.
 
+* What is the optimal number of clusters obtained in this project?
+* Which are the techniques to find the optimal number of clusters
+
 <h2> :book: Data Summery</h2>
 This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Fixable which is a third-party Netflix search engine.
 In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010. The streaming service’s number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what all other insights can be obtained from the same dataset.
@@ -84,7 +87,30 @@ Here, we wish to gain important statistical insights from our data and analyze t
 
 *3] Clustering: 
 Clustering or cluster analysis is a machine learning technique that groups unlabeled data sets. This is a method of grouping data points into distinct clusters of similar data points. Potentially similar objects are grouped with little or no similarity to another group. remain in.” can be defined. This is done by finding similar patterns such as shape, size, color, and behavior in unlabeled datasets and classifying them according to the presence or absence of those similar patterns. This is an unsupervised learning method. Therefore, no oversight is provided to the algorithm and it processes unlabeled datasets. Applying this clustering technique provides a cluster ID for each cluster or group. ML systems can use this ID to simplify processing of large and complex data sets.
-# Conclusion
+
+# Techniques used to find optimanl no of clusters:
+
+**The Elbow Method**
+
+Elbow method is one of the most popular method used to select the optimal number of clusters by fitting the model with a range of values for K in K-means algorithm. Elbow method requires drawing a line plot between SSE (Sum of Squared errors) vs number of clusters and finding the point representing the “elbow point” (the point after which the SSE or inertia starts decreasing in a linear fashion). Here is the sample elbow point. 
+
+**Dendrogram**
+
+A dendrogram is a diagram that shows the hierarchical relationship between objects. It is most commonly created as an output from hierarchical clustering. The main use of a dendrogram is to work out the best way to allocate objects to clusters. Observations are allocated to clusters by drawing a horizontal line through the dendrogram. Observations that are joined together below the line are in clusters. In the example below, we have two clusters. One cluster combines A and B, and a second cluster combining C, D, E, and F.
+
+![image](https://user-images.githubusercontent.com/114068950/214819672-ffc806ec-02b0-4d8c-8e9b-83e4bd4f534a.png)
+
+
+
+# :book: Result
+
+![image](https://user-images.githubusercontent.com/114068950/214818815-d618fefd-0ec7-4be0-8a14-6a7d2e5622f3.png)
+
+* Optimal number of clusters obtained are 2 using elbow method
+* Different techniques used to find out optimal no of clusters are elbow method, dendrogram.
+
+
+# :book: Conclusion
 
 * With the help of silhouette score ,optimality test performed for 15 clusters. And we obtained K=2 as a optimal point with the help of elbow method and K Means is best for identification than Hierarchical as the evaluation metrics also indicates the same.
 * DBSCAN used to show the areas of high density are separated by the areas of low density. Because of this, the clusters can be found in any arbitrary shape.
