@@ -64,28 +64,28 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 # Exploring Solutions:
 After gaining a deeper understanding of what the problem we are trying to solve, what the user's needs and frustrations are, and what the goal is to achieve the best possible solution for both the company and the user, I started listing possible solutions. 
 
-1)Rating System Improvements: Use star ratings instead of a high and low rating system to aid in decision making when selecting movies.
+* Rating System Improvements: Use star ratings instead of a high and low rating system to aid in decision making when selecting movies.
 
-2)Separate Recently Watched: Hide movies and TV shows on separate pages so users don't have to scroll through what they've already seen. — Users need to search more
+* Separate Recently Watched: Hide movies and TV shows on separate pages so users don't have to scroll through what they've already seen. — Users need to search more
 
-3)Randomize Movies: If you don't know what to choose, Netflix will randomly choose what you want to watch based on your viewing history.
+* Randomize Movies: If you don't know what to choose, Netflix will randomly choose what you want to watch based on your viewing history.
 
-4)Show Popular/Trending Movies: Create a category that shows only trending content.
+* Show Popular/Trending Movies: Create a category that shows only trending content.
 
-5)Connect with Friends: Users have been shown to watch shows and movies based on their friends' recommendations, so this helps keep users connected to Netflix for longer.
+* Connect with Friends: Users have been shown to watch shows and movies based on their friends' recommendations, so this helps keep users connected to Netflix for longer.
 
-6)Organize movies by mood: In addition to genre filters, you may be able to organize your content based on how you feel after watching a movie.
+* Organize movies by mood: In addition to genre filters, you may be able to organize your content based on how you feel after watching a movie.
 
 # Steps involved:
 The full code for this article can be found here. It is implemented in Python and uses various clustering algorithms. Below is a short description of the general approach I used:
 
-*1] Data Cleansing and Preprocessing: 
+**Data Cleansing and Preprocessing:** 
 Here I checked and dealt with missing and duplicate variables from the dataset.
 
-*2] Exploratory data analysis: 
+**Exploratory data analysis:** 
 Here, we wish to gain important statistical insights from our data and analyze the distribution of various attributes, correlations between attributes and target variables, and important quotas and proportions of categorical attributes.
 
-*3] Clustering: 
+**Clustering:** 
 Clustering or cluster analysis is a machine learning technique that groups unlabeled data sets. This is a method of grouping data points into distinct clusters of similar data points. Potentially similar objects are grouped with little or no similarity to another group. remain in.” can be defined. This is done by finding similar patterns such as shape, size, color, and behavior in unlabeled datasets and classifying them according to the presence or absence of those similar patterns. This is an unsupervised learning method. Therefore, no oversight is provided to the algorithm and it processes unlabeled datasets. Applying this clustering technique provides a cluster ID for each cluster or group. ML systems can use this ID to simplify processing of large and complex data sets.
 
 # Techniques used to find optimanl no of clusters:
